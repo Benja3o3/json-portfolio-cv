@@ -1,0 +1,29 @@
+---
+import ExperienceCard from "./ExperienceCard.astro";
+---
+
+<section id="experience">
+    <h1 class="text-3xl font-semibold py-5">Experiencia</h1>
+    <ExperienceCard
+        position="Desarrollador FullStack"
+        company="Data Research"
+        date="Diciembre 2023 - Enero 2024"
+        description="Desarrollo de plataforma web para el control y gestion de archivos y carpetas, utilizando mecanismos de permisos y roles."
+        badges={[
+            "React",
+            "TypeScript",
+            "Python",
+            "PostgreSQL",
+            "Tailwind",
+            "FastAPI",
+            "Docker",
+        ]}
+    />
+    <ExperienceCard
+        position="Desarrollador Frontend, UX"
+        company="Proyecto FONDEF IDeA ID22I10072"
+        date="Enero 2023"
+        description="Practica inicial en el desarrollo de la interfaz de usuario y experiencia de usuario para plataforma de ciencia ciudadana depercepción comunitaria de incendios"
+        badges={["Flutter", "Dart", "Figma"]}
+    />
+</section>

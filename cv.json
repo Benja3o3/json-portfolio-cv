@@ -1,0 +1,124 @@
+{
+    "basics": {
+        "name": "Benjamin Cifuentes",
+        "label": "Desarrollador Full Stack titulado en Ingeniería Civil en Informática.",
+        "image": "https://dui-portfolio.netlify.app/my-photo.webp",
+        "email": "bcifuentesp01@gmail.com",
+        "phone": "+56 934000534",
+        "url": "TODO",
+        "summary": "TODO",
+        "location": {
+            "address": "Psje Oncol 545",
+            "postalCode": "5150000",
+            "city": "San José de la Mariquina",
+            "countryCode": "CL",
+            "region": "Los Rios"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "Benja3o3",
+                "url": "https://github.com/Benja3o3"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Benjamin Cifuentes",
+                "url": "https://www.linkedin.com/in/benjamin-cifuentes-41027b264/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Data Research",
+            "position": "Desarrollador Full Stack",
+            "url": "https://www.dataresearch.cl",
+            "startDate": "2013-01-01",
+            "endDate": "2014-01-01",
+            "summary": "Description…",
+            "highlights": ["Started the company"]
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Organization",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "University",
+            "url": "https://institution.com/",
+            "area": "Software Development",
+            "studyType": "Bachelor",
+            "startDate": "2011-01-01",
+            "endDate": "2013-01-01",
+            "score": "4.0",
+            "courses": ["DB1101 - Basic SQL"]
+        }
+    ],
+    "awards": [
+        {
+            "title": "Award",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "Certificate",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "Publication",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Web Development",
+            "level": "Master",
+            "keywords": ["HTML", "CSS", "JavaScript"]
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "fluency": "Native speaker"
+        }
+    ],
+    "interests": [
+        {
+            "name": "Wildlife",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane Doe",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Project",
+            "startDate": "2019-01-01",
+            "endDate": "2021-01-01",
+            "description": "Description...",
+            "highlights": ["Won award at AIHacks 2016"],
+            "url": "https://project.com/"
+        }
+    ]
+}

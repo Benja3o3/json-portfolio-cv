@@ -1,0 +1,42 @@
+---
+import { basics } from "@cv";
+import GitHub from "@/icons/GitHub.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+
+const { name, image, profiles } = basics;
+const SOCIAL_ICONS: Record<string, any> = {
+    GitHub: GitHub,
+    LinkedIn: LinkedIn,
+};
+---
+
+<section class="w-full flex flex-row items-start gap-x-5" id="about">
+    <div>
+        <h1 class="text-5xl font-bold">Hola! Soy {name.split(" ")[0]}</h1>
+        <h2>
+            Desarrollador <span class="text-red-200">Full Stack</span> titulado en
+            <span class="text-blue-200">Ingeniería Civil en Informática</span>.
+            De Valdivia, Chile. Especializado en el desarrollo de <span
+                class="text-yellow-100">aplicaciones web y móviles</span
+            >.
+        </h2>
+        <nav class="w-full flex flex-row items-start gap-x-5 pt-2">
+            {
+                profiles.map((profile) => {
+                    const Icon = SOCIAL_ICONS[profile.network];
+                    return (
+                        <a
+                            href={profile.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="w-8 h-8"
+                        >
+                            <Icon class="w-6 h-6" currentColor="#acacac" />
+                        </a>
+                    );
+                })
+            }
+        </nav>
+    </div>
+    <img class="w-36 h-36 rounded-full" src={image} alt="Dui photo" />
+</section>

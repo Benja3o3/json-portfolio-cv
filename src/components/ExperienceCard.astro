@@ -1,0 +1,32 @@
+---
+import Divider from "@/components/Divider.astro";
+---
+
+<article
+    {...Astro.props}
+    class="flex flex-row justify-start items-center w-full h-auto gap-4 md:gap-6 mb-4 md:mb-6"
+>
+    <Divider />
+    <div
+        class="flex flex-col w-full shadow-2xl bg-gray-300 bg-opacity-10 rounded-md p-4"
+    >
+        <div class="flex flex-row justify-between w-full">
+            <h2 class="text-lg md:text-xl font-semibold">
+                {Astro.props.position}
+            </h2>
+            <h2 class="text-sm md:text-base">{Astro.props.date}</h2>
+        </div>
+        <span class="text-green-200 text-sm">{Astro.props.company}</span>
+        <p class="text-sm md:text-base">{Astro.props.description}</p>
+        <div class="flex flex-wrap justify-start w-full">
+            {
+                Astro.props.badges &&
+                    Astro.props.badges.map((badge: any) => (
+                        <span class="bg-gray-300 bg-opacity-20 text-xs md:text-sm p-1 m-1 rounded-md">
+                            {badge}
+                        </span>
+                    ))
+            }
+        </div>
+    </div>
+</article>
