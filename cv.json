@@ -2,7 +2,7 @@
     "basics": {
         "name": "Benjamin Cifuentes",
         "label": "Desarrollador Full Stack titulado en Ingeniería Civil en Informática.",
-        "image": "https://dui-portfolio.netlify.app/my-photo.webp",
+        "image": "https://avatars.githubusercontent.com/u/90216964?s=400&u=112b7b97dcb1312482a4267e3c7d3d702f450132&v=4",
         "email": "bcifuentesp01@gmail.com",
         "phone": "+56 934000534",
         "url": "TODO",
@@ -32,10 +32,27 @@
             "name": "Data Research",
             "position": "Desarrollador Full Stack",
             "url": "https://www.dataresearch.cl",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description…",
-            "highlights": ["Started the company"]
+            "startDate": "2023-12-18",
+            "endDate": "2024-01-15",
+            "summary": "Desarrollo de plataforma web para el control y gestion de archivos y carpetas, utilizando funcionalidades como autenticación, autorización, roles, permisos, entre otros.",
+            "highlights": [
+                "React",
+                "TypeScript",
+                "Python",
+                "PostgreSQL",
+                "Tailwind",
+                "FastAPI",
+                "Docker"
+            ]
+        },
+        {
+            "name": "Proyecto FONDEF IDeA ID22I10072",
+            "position": "Desarrollador Frontend, UX",
+            "url": "none",
+            "startDate": "2023-01-02",
+            "endDate": "2023-01-30",
+            "summary": "Practica inicial en el desarrollo de interfaz de usuario y experiencia de usuario para una plataforma de ciencia ciudadana, centrada en la percepción comunitaria de los incendios.",
+            "highlights": ["Flutter", "Dart", "Figma"]
         }
     ],
     "volunteer": [
