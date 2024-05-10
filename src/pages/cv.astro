@@ -1,0 +1,20 @@
+---
+import LayoutCv from "../layouts/LayoutCv.astro";
+import Hero from "@/cvComponents/Hero.astro";
+import SideBar from "@/cvComponents/SideBar.astro";
+import MainContent from "@/cvComponents/MainContent.astro";
+---
+
+<LayoutCv title="Minimalist Portfolio & CV">
+    <main
+        class="w-[800px] flex flex-col items-center justify-start px-4 md:px-8 py-4 space-y-8 mt-12 border-x border-gray-300"
+    >
+        <Hero />
+        <div class="flex flex-row w-full justify-between">
+            <SideBar />
+            <MainContent />
+        </div>
+    </main>
+</LayoutCv>
+
+<style></style>

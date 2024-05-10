@@ -1,11 +1,11 @@
 {
     "basics": {
         "name": "Benjamin Cifuentes",
-        "label": "Desarrollador Full Stack titulado en Ingeniería Civil en Informática.",
+        "label": "Desarrollador Full Stack",
         "image": "https://avatars.githubusercontent.com/u/90216964?s=400&u=112b7b97dcb1312482a4267e3c7d3d702f450132&v=4",
         "email": "bcifuentesp01@gmail.com",
         "phone": "+56 934000534",
-        "url": "TODO",
+        "url": "linkedin.com/in/bcifuentes01/",
         "summary": "TODO",
         "location": {
             "address": "Psje Oncol 545",
@@ -23,7 +23,7 @@
             {
                 "network": "LinkedIn",
                 "username": "Benjamin Cifuentes",
-                "url": "https://www.linkedin.com/in/benjamin-cifuentes-41027b264/"
+                "url": "https://www.linkedin.com/in/bcifuentes01/"
             }
         ]
     },
