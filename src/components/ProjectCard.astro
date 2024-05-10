@@ -1,0 +1,48 @@
+---
+import HTML from "@/icons/Html5.astro";
+import CSS from "@/icons/Css.astro";
+import JS from "@/icons/Js.astro";
+import TS from "@/icons/Ts.astro";
+import REACT from "@/icons/React.astro";
+import NODE from "@/icons/Node.astro";
+import ASTRO from "@/icons/AstroIcon.astro";
+import POSTGRESQL from "@/icons/PostgreSql.astro";
+import PYTHON from "@/icons/Python.astro";
+import FLUTTER from "@/icons/Flutter.astro";
+const TECNOLOGIES_ICONS: Record<string, any> = {
+    HTML: HTML,
+    CSS: CSS,
+    JavaScript: JS,
+    TypeScript: TS,
+    React: REACT,
+    NodeJs: NODE,
+    Astro: ASTRO,
+    PostgreSQL: POSTGRESQL,
+    Python: PYTHON,
+    Flutter: FLUTTER,
+};
+
+const visitable = Astro.props.url == null ? "cursor-default" : "cursor-pointer";
+---
+
+<a
+    {...Astro.props}
+    class=`bg-gray-600 bg-opacity-5 md:w-[320px] shadow-xl p-4 flex flex-col space-y-2 transition-transform hover:scale-105 hover:bg-opacity-30 hover:bg-black-600 rounded-xl justify-between items-start ${visitable}`
+    target="_blank"
+    href={Astro.props.url}
+>
+    <div class="flex flex-col space-y-5">
+        <h1>{Astro.props.name}</h1>
+        <img src={Astro.props.imgsrc} class="rounded-md w-full md:w-auto" />
+        <span class="text-sm">{Astro.props.description}</span>
+    </div>
+    <footer class="flex flex-wrap space-x-2">
+        {
+            Astro.props.tecnologies &&
+                Astro.props.tecnologies.map((tec: string) => {
+                    const Icon = TECNOLOGIES_ICONS[tec];
+                    return Icon ? <Icon class="w-6 h-6" /> : <span>{tec}</span>;
+                })
+        }
+    </footer>
+</a>

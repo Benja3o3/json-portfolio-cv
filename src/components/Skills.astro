@@ -1,0 +1,42 @@
+---
+import HTML from "@/icons/Html5.astro";
+import CSS from "@/icons/Css.astro";
+import JS from "@/icons/Js.astro";
+import TS from "@/icons/Ts.astro";
+import REACT from "@/icons/React.astro";
+import NODE from "@/icons/Node.astro";
+import ASTRO from "@/icons/AstroIcon.astro";
+import POSTGRESQL from "@/icons/PostgreSql.astro";
+import PYTHON from "@/icons/Python.astro";
+import FLUTTER from "@/icons/Flutter.astro";
+const TECNOLOGIES_ICONS: Record<string, any> = {
+    HTML: HTML,
+    CSS: CSS,
+    JavaScript: JS,
+    TypeScript: TS,
+    React: REACT,
+    NodeJs: NODE,
+    Astro: ASTRO,
+    PostgreSQL: POSTGRESQL,
+    Python: PYTHON,
+    Flutter: FLUTTER,
+};
+
+import { skills } from "@cv";
+---
+
+<section id="skills">
+    <h1 class="text-3xl font-semibold py-5">Habilidades</h1>
+    <div class="flex flex-wrap space-x-2">
+        {
+            skills.map((skill) => {
+                const SkillIcon = TECNOLOGIES_ICONS[skill.name];
+                return SkillIcon ? (
+                    <SkillIcon class="w-12 h-12" />
+                ) : (
+                    <span>{skill.name}</span>
+                );
+            })
+        }
+    </div>
+</section>

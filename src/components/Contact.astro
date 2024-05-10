@@ -1,0 +1,19 @@
+---
+import { basics } from "@cv";
+
+const { email, phone } = basics;
+---
+
+<section id="contact">
+    <h1 class="text-3xl font-semibold py-5">Contáctame</h1>
+    <div class="flex flex-col justify-center items-center space-y-5">
+        <span
+            class="flex justify-center items-center w-full p-2 bg-gray-500 bg-opacity-15 rounded-xl shadow-md"
+            >✉ Email<span class="font-bold px-4"> {email}</span></span
+        >
+        <span
+            class="flex justify-center items-center w-full p-2 bg-gray-500 bg-opacity-15 rounded-xl shadow-md"
+            >📱 Telefono <span class="font-bold px-4">{phone}</span></span
+        >
+    </div>
+</section>

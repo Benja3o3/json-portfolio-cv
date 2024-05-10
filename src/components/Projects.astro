@@ -1,0 +1,26 @@
+---
+import ProyectCard from "@/components/ProjectCard.astro";
+
+import { projects } from "@cv";
+---
+
+<section id="proyects">
+    <h1 class="text-3xl font-semibold py-5">Proyectos</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+        {
+            projects.map((project) => {
+                return (
+                    <ProyectCard
+                        name={project.name}
+                        description={project.description}
+                        imgsrc={project.img}
+                        tecnologies={project.tecnologies}
+                        url={project.url}
+                    />
+                );
+            })
+        }
+    </div>
+</section>
+
+<script></script>

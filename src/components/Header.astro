@@ -1,0 +1,47 @@
+<header
+    id="main-header"
+    class="fixed top-0 w-[720px] flex justify-center h-12 items-center p-2 transition-colors duration-500 rounded-xl z-10"
+>
+    <nav class="flex flex-row gap-x-5">
+        <a href="#about">Sobre mí</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#proyects">Proyectos</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+</header>
+
+<style>
+    #main-header {
+        background-color: transparent;
+    }
+
+    #main-header.scrolled {
+        background-color: rgba(
+            20,
+            20,
+            20,
+            0.9
+        ); /* Color de fondo con opacidad */
+    }
+
+    @media (max-width: 768px) {
+        /* Estilos para ocultar el header en dispositivos móviles */
+        #main-header {
+            display: none;
+        }
+    }
+</style>
+
+<script>
+    window.addEventListener("scroll", function () {
+        var header = document.getElementById("main-header");
+        var scrollPosition = window.scrollY;
+
+        if (scrollPosition > 0) {
+            header!.classList.add("scrolled");
+        } else {
+            header!.classList.remove("scrolled");
+        }
+    });
+</script>

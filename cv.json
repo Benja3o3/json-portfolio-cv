@@ -35,7 +35,8 @@
             "startDate": "2023-12-18",
             "endDate": "2024-01-15",
             "summary": "Desarrollo de plataforma web para el control y gestion de archivos y carpetas, utilizando funcionalidades como autenticación, autorización, roles, permisos, entre otros.",
-            "highlights": [
+            "highlights": [],
+            "tecnologies": [
                 "React",
                 "TypeScript",
                 "Python",
@@ -52,12 +53,13 @@
             "startDate": "2023-01-02",
             "endDate": "2023-01-30",
             "summary": "Practica inicial en el desarrollo de interfaz de usuario y experiencia de usuario para una plataforma de ciencia ciudadana, centrada en la percepción comunitaria de los incendios.",
-            "highlights": ["Flutter", "Dart", "Figma"]
+            "highlights": [],
+            "tecnologies": ["Flutter", "Dart", "Figma"]
         }
     ],
     "volunteer": [
         {
-            "organization": "Organization",
+            "organization": "TODO",
             "position": "Volunteer",
             "url": "https://organization.com/",
             "startDate": "2012-01-01",
@@ -68,7 +70,7 @@
     ],
     "education": [
         {
-            "institution": "University",
+            "institution": "TODO",
             "url": "https://institution.com/",
             "area": "Software Development",
             "studyType": "Bachelor",
@@ -80,7 +82,7 @@
     ],
     "awards": [
         {
-            "title": "Award",
+            "title": "TODO",
             "date": "2014-11-01",
             "awarder": "Company",
             "summary": "There is no spoon."
@@ -88,7 +90,7 @@
     ],
     "certificates": [
         {
-            "name": "Certificate",
+            "name": "TODO",
             "date": "2021-11-07",
             "issuer": "Company",
             "url": "https://certificate.com"
@@ -96,7 +98,7 @@
     ],
     "publications": [
         {
-            "name": "Publication",
+            "name": "TODO",
             "publisher": "Company",
             "releaseDate": "2014-10-01",
             "url": "https://publication.com",
@@ -105,37 +107,100 @@
     ],
     "skills": [
         {
-            "name": "Web Development",
-            "level": "Master",
-            "keywords": ["HTML", "CSS", "JavaScript"]
+            "name": "HTML",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "CSS",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "JavaScript",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "TypeScript",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "React",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "Astro",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "Python",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "NodeJs",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "Intermediate",
+            "keywords": []
+        },
+        {
+            "name": "Flutter",
+            "level": "Intermediate",
+            "keywords": []
         }
     ],
     "languages": [
         {
-            "language": "English",
+            "language": "TODO",
             "fluency": "Native speaker"
         }
     ],
     "interests": [
         {
-            "name": "Wildlife",
+            "name": "TODO",
             "keywords": ["Ferrets", "Unicorns"]
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
+            "name": "Jane TODO",
             "reference": "Reference…"
         }
     ],
     "projects": [
         {
-            "name": "Project",
-            "startDate": "2019-01-01",
-            "endDate": "2021-01-01",
-            "description": "Description...",
-            "highlights": ["Won award at AIHacks 2016"],
-            "url": "https://project.com/"
+            "name": "FileSystem",
+            "startDate": "2023-12-18",
+            "endDate": "2024-01-15",
+            "description": "Sistema de archivos para la gestión de datos de investigación para una empresa",
+            "highlights": [],
+            "tecnologies": ["React", "TypeScript", "PostgreSQL", "Python"],
+            "url": null,
+            "img": "./filesystem.webp"
+        },
+        {
+            "name": "INBiS",
+            "startDate": "2023-07-02",
+            "endDate": "2023-12-20",
+            "description": "Plataforma de analisis de bienestar ciudadano basado en indicadores de calidad de vida y bienestar",
+            "highlights": [],
+            "tecnologies": [
+                "React",
+                "TypeScript",
+                "NodeJs",
+                "Python",
+                "PostgreSQL"
+            ],
+            "url": "https://github.com/Benja3o3/INFO282-FrontBack",
+            "img": "./inbis.webp"
         }
     ]
 }
