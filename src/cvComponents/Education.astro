@@ -1,0 +1,23 @@
+---
+import { education } from "@cv";
+---
+
+<section class="flex flex-col gap-1">
+    <h1 class="text-xl font-semibold">Formación Académica</h1>
+    {
+        education.map((e) => (
+            <div class="mb-4 relative flex items-center">
+                <div class="w-3 h-3 rounded-full bg-gray-400 mr-2" />
+                <div>
+                    <h2 class="text-md font-semibold opacity-90">
+                        {e.institution}
+                    </h2>
+                    <span class="text-sm">{e.area}</span>
+                    <p class="text-xs opacity-80">
+                        {e.startDate} / {e.endDate}
+                    </p>
+                </div>
+            </div>
+        ))
+    }
+</section>

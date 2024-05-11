@@ -6,7 +6,7 @@
         "email": "bcifuentesp01@gmail.com",
         "phone": "+56 934000534",
         "url": "linkedin.com/in/bcifuentes01/",
-        "summary": "TODO",
+        "summary": "Estudiante de ingeniería civil informática cursando el 5to año de universidad con experiencia en distintos lenguajes de programación. Me caracterizo por mis buenas habilidades comunicativas y facilidad a la hora de trabajar en equipo. Busco la oportunidad de realizar mi práctica profesional en el área de desarrollo web para poder aplicar mis conocimientos en el campo laboral.",
         "location": {
             "address": "Psje Oncol 545",
             "postalCode": "5150000",
@@ -70,14 +70,24 @@
     ],
     "education": [
         {
-            "institution": "TODO",
-            "url": "https://institution.com/",
-            "area": "Software Development",
-            "studyType": "Bachelor",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "score": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Universad Austral de Chile",
+            "url": "https://www.uach.cl",
+            "area": "Ingenieria Civil Informatica",
+            "studyType": "Título Profesional",
+            "startDate": "2019-03-18",
+            "endDate": "2025-06-15",
+            "score": "TODO",
+            "courses": []
+        },
+        {
+            "institution": "Liceo Seminario San Fidel",
+            "url": "https://sanfidel.cl",
+            "area": "Licenciatura en Ciencias y Humanidades",
+            "studyType": "Enseñanza Media",
+            "startDate": "2016-03-03",
+            "endDate": "2019-11-08",
+            "score": "TODO",
+            "courses": []
         }
     ],
     "awards": [
@@ -105,7 +115,7 @@
             "summary": "Description…"
         }
     ],
-    "skills": [
+    "programingLanguages": [
         {
             "name": "HTML",
             "level": "Intermediate",
@@ -157,6 +167,7 @@
             "keywords": []
         }
     ],
+    "skills": [],
     "languages": [
         {
             "language": "TODO",

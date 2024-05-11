@@ -22,14 +22,14 @@ const TECNOLOGIES_ICONS: Record<string, any> = {
     Flutter: FLUTTER,
 };
 
-import { skills } from "@cv";
+import { programingLanguages } from "@cv";
 ---
 
 <section id="skills">
     <h1 class="text-3xl font-semibold py-5">Habilidades</h1>
     <div class="flex flex-wrap space-x-2">
         {
-            skills.map((skill) => {
+            programingLanguages.map((skill) => {
                 const SkillIcon = TECNOLOGIES_ICONS[skill.name];
                 return SkillIcon ? (
                     <SkillIcon class="w-12 h-12" />

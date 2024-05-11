@@ -2,6 +2,7 @@
 import { basics } from "@cv";
 import GitHub from "@/icons/GitHub.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
+import Download from "@/icons/Download.astro";
 
 const { name, image, profiles } = basics;
 const SOCIAL_ICONS: Record<string, any> = {
@@ -29,13 +30,20 @@ const SOCIAL_ICONS: Record<string, any> = {
                             href={profile.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="w-8 h-8"
+                            class="w-8 h-8 hover:scale-110 transition"
                         >
                             <Icon class="w-6 h-6" currentColor="#acacac" />
                         </a>
                     );
                 })
             }
+            <a
+                href="/cv"
+                rel="noopener noreferrer"
+                class="w-8 h-8 hover:scale-110 transition"
+            >
+                <Download class="w-6 h-6" currentColor="#acacac" />
+            </a>
         </nav>
     </div>
     <img class="w-36 h-36 rounded-full" src={image} alt="Dui photo" />
