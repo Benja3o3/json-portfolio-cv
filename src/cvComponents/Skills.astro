@@ -1,5 +1,14 @@
 ---
-import { skills } from "@cv";
+import { programingLanguages } from "@cv";
 ---
 
-<section></section>
+<section class="flex flex-col gap-1">
+    <h1 class="text-lg font-semibold">Lenguajes de programación</h1>
+    <div class="flex flex-wrap gap-2">
+        {
+            programingLanguages.map((language, index) => (
+                <span class="text-sm opacity-90">{language.name}</span>
+            ))
+        }
+    </div>
+</section>

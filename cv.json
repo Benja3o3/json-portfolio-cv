@@ -170,8 +170,12 @@
     "skills": [],
     "languages": [
         {
-            "language": "TODO",
-            "fluency": "Native speaker"
+            "language": "Español",
+            "fluency": "Nativo"
+        },
+        {
+            "language": "Inglés",
+            "fluency": "B1"
         }
     ],
     "interests": [
