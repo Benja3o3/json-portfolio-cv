@@ -35,7 +35,12 @@
             "startDate": "2023-12-18",
             "endDate": "2024-01-15",
             "summary": "Desarrollo de plataforma web para el control y gestion de archivos y carpetas, utilizando funcionalidades como autenticación, autorización, roles, permisos, entre otros.",
-            "highlights": [],
+            "highlights": [
+                "Desarrollo de interfaz de usuario",
+                "Desarrollo de backend",
+                "Desarrollo de base de datos",
+                "Desarrollo de API REST"
+            ],
             "tecnologies": [
                 "React",
                 "TypeScript",
@@ -86,7 +91,7 @@
             "studyType": "Enseñanza Media",
             "startDate": "2016-03-03",
             "endDate": "2019-11-08",
-            "score": "TODO",
+            "score": "6.46",
             "courses": []
         }
     ],
@@ -118,53 +123,43 @@
     "programingLanguages": [
         {
             "name": "HTML",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "CSS",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "JavaScript",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "TypeScript",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "React",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "Astro",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "Python",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "NodeJs",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "PostgreSQL",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         },
         {
             "name": "Flutter",
-            "level": "Intermediate",
-            "keywords": []
+            "level": "Intermediate"
         }
     ],
     "skills": [],

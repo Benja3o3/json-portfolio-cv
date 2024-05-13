@@ -1,0 +1,47 @@
+---
+import { projects } from "@cv";
+import HTML from "@/icons/Html5.astro";
+import CSS from "@/icons/Css.astro";
+import JS from "@/icons/Js.astro";
+import TS from "@/icons/Ts.astro";
+import REACT from "@/icons/React.astro";
+import NODE from "@/icons/Node.astro";
+import ASTRO from "@/icons/AstroIcon.astro";
+import POSTGRESQL from "@/icons/PostgreSql.astro";
+import PYTHON from "@/icons/Python.astro";
+import FLUTTER from "@/icons/Flutter.astro";
+const TECNOLOGIES_ICONS: Record<string, any> = {
+    HTML: HTML,
+    CSS: CSS,
+    JavaScript: JS,
+    TypeScript: TS,
+    React: REACT,
+    NodeJs: NODE,
+    Astro: ASTRO,
+    PostgreSQL: POSTGRESQL,
+    Python: PYTHON,
+    Flutter: FLUTTER,
+};
+---
+
+<section class="flex flex-col gap-1 mr-1">
+    <h1 class="text-xl font-semibold">Proyectos</h1>
+    <div class="grid grid-cols-2 gap-2">
+        {
+            projects.map((project, index) => (
+                <div class="flex flex-col gap-1">
+                    <h2 class="text-lg font-semibold bg-gray-300">
+                        {project.name}
+                    </h2>
+                    <p class="text-sm">{project.description}</p>
+                    <ul class="flex flex-wrap gap-1">
+                        {project.tecnologies.map((tecnology) => {
+                            const Icon = TECNOLOGIES_ICONS[tecnology];
+                            return <Icon class="w-6 h-6" />;
+                        })}
+                    </ul>
+                </div>
+            ))
+        }
+    </div>
+</section>
