@@ -7,48 +7,50 @@ import { work } from "@cv";
 <section id="experience">
     <h1 class="text-3xl font-semibold py-5">Experiencia</h1>
     {
-        work.map((w) => {
-            const date =
-                new Date(w.startDate)
-                    .toLocaleString("es-ES", {
-                        month: "long",
-                        year: "numeric",
-                    })
-                    .replace(/^./, (match) => match.toUpperCase()) ===
-                new Date(w.endDate)
-                    .toLocaleString("es-ES", {
-                        month: "long",
-                        year: "numeric",
-                    })
-                    .replace(/^./, (match) => match.toUpperCase())
-                    ? new Date(w.startDate)
-                          .toLocaleString("es-ES", {
-                              month: "long",
-                              year: "numeric",
-                          })
-                          .replace(/^./, (match) => match.toUpperCase())
-                    : new Date(w.startDate)
-                          .toLocaleString("es-ES", {
-                              month: "long",
-                              year: "numeric",
-                          })
-                          .replace(/^./, (match) => match.toUpperCase()) +
-                      " - " +
-                      new Date(w.endDate)
-                          .toLocaleString("es-ES", {
-                              month: "long",
-                              year: "numeric",
-                          })
-                          .replace(/^./, (match) => match.toUpperCase());
-            return (
-                <ExperienceCard
-                    position={w.position}
-                    company={w.name}
-                    date={date}
-                    description={w.summary}
-                    badges={w.tecnologies}
-                />
-            );
-        })
+        work
+            .filter((w) => w.type === "Desarrollo Web")
+            .map((w) => {
+                const date =
+                    new Date(w.startDate)
+                        .toLocaleString("es-ES", {
+                            month: "long",
+                            year: "numeric",
+                        })
+                        .replace(/^./, (match) => match.toUpperCase()) ===
+                    new Date(w.endDate)
+                        .toLocaleString("es-ES", {
+                            month: "long",
+                            year: "numeric",
+                        })
+                        .replace(/^./, (match) => match.toUpperCase())
+                        ? new Date(w.startDate)
+                              .toLocaleString("es-ES", {
+                                  month: "long",
+                                  year: "numeric",
+                              })
+                              .replace(/^./, (match) => match.toUpperCase())
+                        : new Date(w.startDate)
+                              .toLocaleString("es-ES", {
+                                  month: "long",
+                                  year: "numeric",
+                              })
+                              .replace(/^./, (match) => match.toUpperCase()) +
+                          " - " +
+                          new Date(w.endDate)
+                              .toLocaleString("es-ES", {
+                                  month: "long",
+                                  year: "numeric",
+                              })
+                              .replace(/^./, (match) => match.toUpperCase());
+                return (
+                    <ExperienceCard
+                        position={w.position}
+                        company={w.name}
+                        date={date}
+                        description={w.summary}
+                        badges={w.tecnologies}
+                    />
+                );
+            })
     }
 </section>

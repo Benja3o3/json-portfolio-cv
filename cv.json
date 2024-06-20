@@ -2,7 +2,7 @@
     "basics": {
         "name": "Benjamin Cifuentes",
         "label": "Desarrollador Full Stack",
-        "image": "https://avatars.githubusercontent.com/u/90216964?s=400&u=112b7b97dcb1312482a4267e3c7d3d702f450132&v=4",
+        "image": "./profile.webp",
         "email": "bcifuentesp01@gmail.com",
         "phone": "+56 934000534",
         "url": "linkedin.com/in/bcifuentes01/",
@@ -29,17 +29,33 @@
     },
     "work": [
         {
+            "name": "Ayudantía Taller de Construcción de Software",
+            "position": "Ayudante",
+            "url": "none",
+            "startDate": "2024-03-14",
+            "endDate": "Presente",
+            "summary": "Colaboré como ayudante en el ramo de Taller construcción de software, donde asistí a los alumnos en la comprensión de conceptos y técnicas fundamentales para el desarrollo de software.",
+            "highlights": [
+                "Facilité tutorías y actividades diseñadas para enseñar de manera interactiva los principios y prácticas del desarrollo de software",
+                "Utilicé métodos participativos para promover el aprendizaje activo y el entendimiento profundo de los temas abordados",
+                "Brindé apoyo a los grupos de alumnos en la creación y desarrollo de sus proyectos, ofreciendo orientación técnica y metodológica"
+            ],
+            "tecnologies": ["NextJs", "React", "NodeJs"],
+            "type": "Ayudantia"
+        },
+        {
             "name": "Data Research",
             "position": "Desarrollador Full Stack",
             "url": "https://www.dataresearch.cl",
             "startDate": "2023-12-18",
             "endDate": "2024-01-15",
-            "summary": "Desarrollo de plataforma web para el control y gestion de archivos y carpetas, utilizando funcionalidades como autenticación, autorización, roles, permisos, entre otros.",
+            "summary": "En colaboración con un colega, desarrollamos una plataforma web integral destinada al control y gestión de archivos y carpetas. Esta solución incluyó funcionalidades avanzadas como autenticación, autorización, gestión de roles y permisos, así como un dashboard para analizar la distribución de acciones de los usuarios, como la creación de cuentas y la subida de archivos a través del tiempo.",
             "highlights": [
-                "Desarrollo de interfaz de usuario",
-                "Desarrollo de backend",
-                "Desarrollo de base de datos",
-                "Desarrollo de API REST"
+                "Diseñamos y desarrollamos la interfaz de usuario utilizando principios de diseño UX/UI",
+                "Implementamos componentes interactivos y responsivos para asegurar la accesibilidad en múltiples dispositivos y resoluciones.",
+                "Implementamos una API RESTful robusta para la gestión de los recursos del sistema",
+                "Implementamos mecanismos de control de acceso y seguridad para proteger los datos sensibles",
+                "Desarrollamos un dashboard interactivo para visualizar y analizar la distribución de acciones de los usuarios"
             ],
             "tecnologies": [
                 "React",
@@ -49,7 +65,8 @@
                 "Tailwind",
                 "FastAPI",
                 "Docker"
-            ]
+            ],
+            "type": "Desarrollo Web"
         },
         {
             "name": "Proyecto FONDEF IDeA ID22I10072",
@@ -57,9 +74,14 @@
             "url": "none",
             "startDate": "2023-01-02",
             "endDate": "2023-01-30",
-            "summary": "Practica inicial en el desarrollo de interfaz de usuario y experiencia de usuario para una plataforma de ciencia ciudadana, centrada en la percepción comunitaria de los incendios.",
-            "highlights": [],
-            "tecnologies": ["Flutter", "Dart", "Figma"]
+            "summary": "Práctica inicial para un proyecto FONDEF, que consistía en el desarrollo de una aplicación móvil de ciencia ciudadana centrada en la percepción comunitaria de los incendios. Este proyecto tenía como objetivo involucrar a la comunidad en la recolección y análisis de datos sobre incendios forestales.",
+            "highlights": [
+                "Desarrollé un sistema de diseño coherente que incluyera componentes reutilizables, colores, tipografía y otros elementos visuales para mantener la consistencia en toda la aplicación.",
+                "Realicé ajustes en el diseño para mejorar la usabilidad y la estética de la aplicación, asegurando que fuera fácil de usar y visualmente atractiva.",
+                "Realicé pruebas de compatibilidad de la aplicación en diferentes dispositivos móviles para mejorar el alcance con la mayor cantidad de teléfonos posible."
+            ],
+            "tecnologies": ["Flutter", "Dart", "Figma"],
+            "type": "Desarrollo Web"
         }
     ],
     "volunteer": [
@@ -80,7 +102,7 @@
             "area": "Ingenieria Civil Informatica",
             "studyType": "Título Profesional",
             "startDate": "2019-03-18",
-            "endDate": "2025-06-15",
+            "endDate": "2025",
             "score": "TODO",
             "courses": []
         },
@@ -162,7 +184,29 @@
             "level": "Intermediate"
         }
     ],
-    "skills": [],
+    "skills": [
+        {
+            "name": "Trabajo en equipo"
+        },
+        {
+            "name": "Comunicación"
+        },
+        {
+            "name": "Resolución de problemas"
+        },
+        {
+            "name": "Pensamiento crítico"
+        },
+        {
+            "name": "Gestión del tiempo"
+        },
+        {
+            "name": "Adaptabilidad"
+        },
+        {
+            "name": "Creatividad"
+        }
+    ],
     "languages": [
         {
             "language": "Español",
@@ -170,7 +214,7 @@
         },
         {
             "language": "Inglés",
-            "fluency": "B1"
+            "fluency": "Intermedio"
         }
     ],
     "interests": [
@@ -186,6 +230,16 @@
         }
     ],
     "projects": [
+        {
+            "name": "FruitSell",
+            "startDate": "2024-01-20",
+            "endDate": "2024-02-27",
+            "description": "Aplicacion movil para el seguimiento de ventas de frutas para vendedores ambulantes, con trackeo de ubicacion y resumen de ventas",
+            "highlights": [],
+            "tecnologies": ["Flutter", "NodeJs", "PostgreSQL"],
+            "url": "https://github.com/Benja3o3/FruitSalesApp",
+            "img": "./fruitsell.webp"
+        },
         {
             "name": "FileSystem",
             "startDate": "2023-12-18",
