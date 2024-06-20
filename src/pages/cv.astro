@@ -22,5 +22,13 @@ import MainContent from "@/cvComponents/MainContent.astro";
         .print {
             width: 100%;
         }
+        @page {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        @page :first {
+            margin-top: -20px;
+            margin-bottom: 20px;
+        }
     }
 </style>
