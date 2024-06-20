@@ -6,7 +6,7 @@
         "email": "bcifuentesp01@gmail.com",
         "phone": "+56 934000534",
         "url": "linkedin.com/in/bcifuentes01/",
-        "summary": "Estudiante de ingeniería civil informática cursando el 5to año de universidad con experiencia en distintos lenguajes de programación. Me caracterizo por mis buenas habilidades comunicativas y facilidad a la hora de trabajar en equipo. Busco la oportunidad de realizar mi práctica profesional en el área de desarrollo web para poder aplicar mis conocimientos en el campo laboral.",
+        "summary": "Soy estudiante de Ingeniería Civil Informática en el quinto año de universidad, con sólida experiencia en diversos lenguajes de programación. Me destaco por mis excelentes habilidades comunicativas y mi capacidad para trabajar eficazmente en equipo. Mi interés principal se centra en el desarrollo web y la creación de plataformas digitales. Siempre estoy buscando nuevas oportunidades para aprender y perfeccionar mis habilidades.",
         "location": {
             "address": "Psje Oncol 545",
             "postalCode": "5150000",
@@ -99,7 +99,7 @@
         {
             "institution": "Universad Austral de Chile",
             "url": "https://www.uach.cl",
-            "area": "Ingenieria Civil Informatica",
+            "area": "Ingeniería Civil Informática",
             "studyType": "Título Profesional",
             "startDate": "2019-03-18",
             "endDate": "2025",
@@ -234,7 +234,7 @@
             "name": "FruitSell",
             "startDate": "2024-01-20",
             "endDate": "2024-02-27",
-            "description": "Aplicacion movil para el seguimiento de ventas de frutas para vendedores ambulantes, con trackeo de ubicacion y resumen de ventas",
+            "description": "Aplicación móvil para el seguimiento de ventas de frutas para vendedores ambulantes, con trackeo de ubicación y resumen de ventas",
             "highlights": [],
             "tecnologies": ["Flutter", "NodeJs", "PostgreSQL"],
             "url": "https://github.com/Benja3o3/FruitSalesApp",
@@ -254,7 +254,7 @@
             "name": "INBiS",
             "startDate": "2023-07-02",
             "endDate": "2023-12-20",
-            "description": "Plataforma de analisis de bienestar ciudadano basado en indicadores de calidad de vida y bienestar",
+            "description": "Plataforma de análisis de bienestar ciudadano basado en indicadores de calidad de vida y bienestar",
             "highlights": [],
             "tecnologies": [
                 "React",
