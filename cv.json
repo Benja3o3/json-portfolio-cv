@@ -29,6 +29,21 @@
     },
     "work": [
         {
+            "name": "Ayudantía Ingeniería de Software",
+            "position": "Ayudante",
+            "url": "none",
+            "startDate": "2024-03-14",
+            "endDate": "Presente",
+            "summary": "Colaboré como ayudante en el ramo de Ingeniería de Software, asistiendo a los alumnos en la comprensión de elementos clave como diagramas UML, testing, Git y refactoring.",
+            "highlights": [
+                "Colaboré con los estudiantes en la resolución de casos de uso, ayudándoles a crear y comprender diagramas UML para representar sistemas y procesos",
+                "Impartí sesiones sobre técnicas de refactoring, explicando cómo y cuándo aplicarlas para mejorar el código existente",
+                "Enseñé la importancia del testing en el desarrollo de software, detallando cuándo y cómo realizar diferentes tipos de pruebas"
+            ],
+            "tecnologies": ["Python", "GitHub"],
+            "type": "Ayudantia"
+        },
+        {
             "name": "Ayudantía Taller de Construcción de Software",
             "position": "Ayudante",
             "url": "none",
@@ -37,7 +52,7 @@
             "summary": "Colaboré como ayudante en el ramo de Taller construcción de software, donde asistí a los alumnos en la comprensión de conceptos y técnicas fundamentales para el desarrollo de software.",
             "highlights": [
                 "Facilité tutorías y actividades diseñadas para enseñar de manera interactiva los principios y prácticas del desarrollo de software",
-                "Utilicé métodos participativos para promover el aprendizaje activo y el entendimiento profundo de los temas abordados",
+                "Utilicé métodos participativos para promover el aprendizaje activo",
                 "Brindé apoyo a los grupos de alumnos en la creación y desarrollo de sus proyectos, ofreciendo orientación técnica y metodológica"
             ],
             "tecnologies": ["NextJs", "React", "NodeJs"],
