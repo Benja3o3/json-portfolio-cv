@@ -29,21 +29,6 @@
     },
     "work": [
         {
-            "name": "Ayudantía Ingeniería de Software",
-            "position": "Ayudante",
-            "url": "none",
-            "startDate": "2024-03-14",
-            "endDate": "Presente",
-            "summary": "Colaboré como ayudante en el ramo de Ingeniería de Software, asistiendo a los alumnos en la comprensión de elementos clave como diagramas UML, testing, Git y refactoring.",
-            "highlights": [
-                "Colaboré con los estudiantes en la resolución de casos de uso, ayudándoles a crear y comprender diagramas UML para representar sistemas y procesos",
-                "Impartí sesiones sobre técnicas de refactoring, explicando cómo y cuándo aplicarlas para mejorar el código existente",
-                "Enseñé la importancia del testing en el desarrollo de software, detallando cuándo y cómo realizar diferentes tipos de pruebas"
-            ],
-            "tecnologies": ["Python", "GitHub"],
-            "type": "Ayudantia"
-        },
-        {
             "name": "Ayudantía Taller de Construcción de Software",
             "position": "Ayudante",
             "url": "none",
@@ -56,6 +41,21 @@
                 "Brindé apoyo a los grupos de alumnos en la creación y desarrollo de sus proyectos, ofreciendo orientación técnica y metodológica"
             ],
             "tecnologies": ["NextJs", "React", "NodeJs"],
+            "type": "Ayudantia"
+        },
+        {
+            "name": "Ayudantía Ingeniería de Software",
+            "position": "Ayudante",
+            "url": "2024-06-07",
+            "startDate": "2024-03-14",
+            "endDate": "2024-06-07",
+            "summary": "Colaboré como ayudante en el ramo de Ingeniería de Software, asistiendo a los alumnos en la comprensión de elementos clave como diagramas UML, testing, Git y refactoring.",
+            "highlights": [
+                "Colaboré con los estudiantes en la resolución de casos de uso, ayudándoles a crear y comprender diagramas UML para representar sistemas y procesos",
+                "Impartí sesiones sobre técnicas de refactoring, explicando cómo y cuándo aplicarlas para mejorar el código existente",
+                "Enseñé la importancia del testing en el desarrollo de software, detallando cuándo y cómo realizar diferentes tipos de pruebas"
+            ],
+            "tecnologies": ["Python", "GitHub"],
             "type": "Ayudantia"
         },
         {
@@ -256,14 +256,20 @@
             "img": "./fruitsell.webp"
         },
         {
-            "name": "FileSystem",
-            "startDate": "2023-12-18",
-            "endDate": "2024-01-15",
-            "description": "Sistema de archivos para la gestión de datos de investigación para una empresa",
+            "name": "Verifika-Scraping-Bot",
+            "startDate": "2024-08-01",
+            "endDate": "2024-09-15",
+            "description": "Bot de scraping utilizando tecnologias de web scraping y tareas encoladas",
             "highlights": [],
-            "tecnologies": ["React", "TypeScript", "PostgreSQL", "Python"],
-            "url": null,
-            "img": "./filesystem.webp"
+            "tecnologies": [
+                "Python",
+                "React",
+                "PostgreSQL",
+                "RabbitMQ",
+                "Docker"
+            ],
+            "url": "https://github.com/Benja3o3/FruitSalesApp",
+            "img": "./fruitsell.webp"
         },
         {
             "name": "INBiS",
