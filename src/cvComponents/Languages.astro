@@ -2,7 +2,7 @@
 import { languages } from "@cv";
 ---
 
-<section class="flex flex-col gap-1">
+<section class="flex flex-col gap-1 idiomas-section">
     <h1 class="text-lg font-semibold">Idiomas</h1>
     {
         languages.map((language, index) => (
@@ -15,3 +15,12 @@ import { languages } from "@cv";
         ))
     }
 </section>
+
+<style>
+    @media print {
+        /* Evita saltos de página dentro de la sección de idiomas */
+        .idiomas-section {
+            page-break-inside: avoid;
+        }
+    }
+</style>

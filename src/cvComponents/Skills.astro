@@ -2,7 +2,7 @@
 import { programingLanguages } from "@cv";
 ---
 
-<section class="flex flex-col gap-1">
+<section class="flex flex-col gap-1 lenguajes-section">
     <h1 class="text-lg font-semibold">Lenguajes y tecnologías</h1>
     <div class="flex flex-wrap gap-2">
         {
@@ -12,3 +12,17 @@ import { programingLanguages } from "@cv";
         }
     </div>
 </section>
+
+<style>
+    @media print {
+        /* Evita saltos de página dentro de la sección de lenguajes */
+        .lenguajes-section {
+            page-break-inside: avoid;
+        }
+
+        /* Evita que los elementos individuales se separen en diferentes páginas */
+        .lenguajes-section .flex {
+            page-break-inside: avoid;
+        }
+    }
+</style>

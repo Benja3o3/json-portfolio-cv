@@ -7,7 +7,7 @@ import MainContent from "@/cvComponents/MainContent.astro";
 
 <LayoutCv title="Minimalist Portfolio & CV">
     <main
-        class="print w-[900px] flex flex-col items-center justify-start px-8 py-4 space-y-8 mt-12 border-x border-gray-300"
+        class="print w-[900px] flex flex-col items-center justify-start px-8 print:px-12 py-4 space-y-8 mt-12 border-x border-gray-300"
     >
         <Hero />
         <div class="flex flex-row w-full justify-between gap-2">
@@ -19,9 +19,9 @@ import MainContent from "@/cvComponents/MainContent.astro";
 
 <style>
     @media print {
-        .print {
+        /* .print {
             width: 100%;
-        }
+        } */
         @page {
             margin-top: 20px;
             margin-bottom: 20px;

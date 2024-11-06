@@ -30,10 +30,10 @@ const TECNOLOGIES_ICONS: Record<string, any> = {
 
 <section class="flex flex-col gap-1 mr-1">
     <h1 class="text-xl font-semibold">Proyectos</h1>
-    <div class="grid grid-cols-2 gap-2">
+    <div class="grid grid-cols-1 gap-2">
         {
             projects.map((project, index) => (
-                <div class="flex flex-col gap-1">
+                <div class="flex flex-col gap-1 .experiencia-item">
                     <h2 class="text-lg font-semibold bg-gray-300">
                         {project.name}
                     </h2>
@@ -49,3 +49,17 @@ const TECNOLOGIES_ICONS: Record<string, any> = {
         }
     </div>
 </section>
+
+<style>
+    @media print {
+        /* Evita el salto de página solo en las experiencias individuales */
+        .experiencia-item {
+            page-break-inside: avoid;
+        }
+
+        /* Permite que las listas y otros elementos fluyan normalmente */
+        .experiencia-highlights {
+            page-break-inside: auto;
+        }
+    }
+</style>
