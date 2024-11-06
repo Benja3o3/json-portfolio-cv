@@ -9,6 +9,8 @@ import ASTRO from "@/icons/AstroIcon.astro";
 import POSTGRESQL from "@/icons/PostgreSql.astro";
 import PYTHON from "@/icons/Python.astro";
 import FLUTTER from "@/icons/Flutter.astro";
+import DOCKER from "@/icons/Docker.astro";
+import RABBITMQ from "@/icons/RabbitMQ.astro";
 const TECNOLOGIES_ICONS: Record<string, any> = {
     HTML: HTML,
     CSS: CSS,
@@ -20,9 +22,12 @@ const TECNOLOGIES_ICONS: Record<string, any> = {
     PostgreSQL: POSTGRESQL,
     Python: PYTHON,
     Flutter: FLUTTER,
+    Docker: DOCKER,
+    RabbitMQ: RABBITMQ,
 };
 
 const visitable = Astro.props.url == null ? "cursor-default" : "cursor-pointer";
+const notImage = Astro.props.imgsrc == null ? "hidden" : "";
 ---
 
 <a

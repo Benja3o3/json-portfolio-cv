@@ -267,9 +267,7 @@
                 "PostgreSQL",
                 "RabbitMQ",
                 "Docker"
-            ],
-            "url": "https://github.com/Benja3o3/FruitSalesApp",
-            "img": "./fruitsell.webp"
+            ]
         },
         {
             "name": "INBiS",
