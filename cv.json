@@ -60,17 +60,17 @@
         },
         {
             "name": "Data Research",
-            "position": "Desarrollador Full Stack",
+            "position": "Desarrollador Full Stack | Ingeniero de Software",
             "url": "https://www.dataresearch.cl",
             "startDate": "2023-12-18",
             "endDate": "2024-01-15",
-            "summary": "En colaboración con un colega, desarrollamos una plataforma web integral destinada al control y gestión de archivos y carpetas. Esta solución incluyó funcionalidades avanzadas como autenticación, autorización, gestión de roles y permisos, así como un dashboard para analizar la distribución de acciones de los usuarios, como la creación de cuentas y la subida de archivos a través del tiempo.",
+            "summary": "Colaboré en el desarrollo de una plataforma web integral para el control y gestión de archivos y carpetas. Esta solución incluyó funcionalidades avanzadas como autenticación, autorización, gestión de roles y permisos, así como un dashboard para analizar la distribución de acciones de los usuarios, como la creación de cuentas y la subida de archivos a lo largo del tiempo.",
             "highlights": [
-                "Diseñamos y desarrollamos la interfaz de usuario utilizando principios de diseño UX/UI",
-                "Implementamos componentes interactivos y responsivos para asegurar la accesibilidad en múltiples dispositivos y resoluciones.",
-                "Implementamos una API RESTful robusta para la gestión de los recursos del sistema",
-                "Implementamos mecanismos de control de acceso y seguridad para proteger los datos sensibles",
-                "Desarrollamos un dashboard interactivo para visualizar y analizar la distribución de acciones de los usuarios"
+                "Diseñé y desarrollé partes de la interfaz de usuario aplicando principios de diseño UX/UI.",
+                "Implementé componentes interactivos y responsivos para asegurar la accesibilidad en múltiples dispositivos y resoluciones.",
+                "Desarrollé una API RESTful robusta para la gestión de los recursos del sistema.",
+                "Implementé mecanismos de control de acceso y seguridad para proteger los datos sensibles.",
+                "Creé un dashboard interactivo para visualizar y analizar la distribución de acciones de los usuarios."
             ],
             "tecnologies": [
                 "React",
@@ -246,9 +246,17 @@
     ],
     "projects": [
         {
+            "name": "Tesis - OBSFarma",
+            "startDate": "2024-08",
+            "endDate": "Presente",
+            "description": "Sistema de apoyo a la toma de decisiones y plataforma de analisis de prescripciones medicas con tecnologias de streaming de datos, pipelines y almacenamiento en la nube",
+            "highlights": [],
+            "tecnologies": ["Python", "Docker", "PostgreSQL", "Kafka", "React"]
+        },
+        {
             "name": "FruitSell",
-            "startDate": "2024-01-20",
-            "endDate": "2024-02-27",
+            "startDate": "2024-01",
+            "endDate": "2024-02",
             "description": "Aplicación móvil para el seguimiento de ventas de frutas para vendedores ambulantes, con trackeo de ubicación y resumen de ventas",
             "highlights": [],
             "tecnologies": ["Flutter", "NodeJs", "PostgreSQL"],
@@ -257,8 +265,8 @@
         },
         {
             "name": "Verifika-Scraping-Bot",
-            "startDate": "2024-08-01",
-            "endDate": "2024-09-15",
+            "startDate": "2024-08",
+            "endDate": "2024-09",
             "description": "Bot de scraping utilizando tecnologias de web scraping y tareas encoladas",
             "highlights": [],
             "tecnologies": [
@@ -271,8 +279,8 @@
         },
         {
             "name": "INBiS",
-            "startDate": "2023-07-02",
-            "endDate": "2023-12-20",
+            "startDate": "2023-07",
+            "endDate": "2023-12",
             "description": "Plataforma de análisis de bienestar ciudadano basado en indicadores de calidad de vida y bienestar",
             "highlights": [],
             "tecnologies": [

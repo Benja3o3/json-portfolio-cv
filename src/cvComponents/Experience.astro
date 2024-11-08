@@ -7,9 +7,9 @@ import { work } from "@cv";
     {
         work.map((w) => (
             <div class="flex flex-col gap-1 experiencia-item">
-                <h2 class="text-lg font-semibold bg-gray-300">{w.name}</h2>
+                <h2 class="text-lg font-semibold bg-gray-300">{w.position}</h2>
                 <div class="flex flex-row justify-between bg-gray-200">
-                    <p class="text-sm">{w.position}</p>
+                    <p class="text-sm">{w.name}</p>
                     <p class="text-sm">
                         {w.startDate} / {w.endDate}
                     </p>

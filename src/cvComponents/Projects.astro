@@ -12,6 +12,7 @@ import PYTHON from "@/icons/Python.astro";
 import FLUTTER from "@/icons/Flutter.astro";
 import DOCKER from "@/icons/Docker.astro";
 import RABBITMQ from "@/icons/RabbitMQ.astro";
+import KAFKA from "@/icons/Kafka.astro";
 const TECNOLOGIES_ICONS: Record<string, any> = {
     HTML: HTML,
     CSS: CSS,
@@ -25,6 +26,7 @@ const TECNOLOGIES_ICONS: Record<string, any> = {
     Flutter: FLUTTER,
     Docker: DOCKER,
     RabbitMQ: RABBITMQ,
+    Kafka: KAFKA,
 };
 ---
 
@@ -33,17 +35,22 @@ const TECNOLOGIES_ICONS: Record<string, any> = {
     <div class="grid grid-cols-1 gap-2">
         {
             projects.map((project, index) => (
-                <div class="flex flex-col gap-1 .experiencia-item">
+                <div class="flex flex-col gap-1 experiencia-item">
                     <h2 class="text-lg font-semibold bg-gray-300">
                         {project.name}
                     </h2>
                     <p class="text-sm">{project.description}</p>
-                    <ul class="flex flex-wrap gap-1">
-                        {project.tecnologies.map((tecnology) => {
-                            const Icon = TECNOLOGIES_ICONS[tecnology];
-                            return <Icon class="w-6 h-6" />;
-                        })}
-                    </ul>
+                    <div class="flex flex-row justify-between items-center experiencia-item">
+                        <ul class="flex flex-wrap gap-1 ">
+                            {project.tecnologies.map((tecnology) => {
+                                const Icon = TECNOLOGIES_ICONS[tecnology];
+                                return <Icon class="w-4 h-4" />;
+                            })}
+                        </ul>
+                        <span class="text-xs opacity-80">
+                            {project.startDate} / {project.endDate}
+                        </span>
+                    </div>
                 </div>
             ))
         }
