@@ -10,11 +10,11 @@ import { work } from "@cv";
                 <h2 class="text-lg font-semibold bg-gray-300">{w.position}</h2>
                 <div class="flex flex-row justify-between bg-gray-200">
                     <p class="text-sm">{w.name}</p>
-                    <p class="text-sm">
+                    <p class="text-sm flex flex-row gap-2">
                         {w.startDate} / {w.endDate}
                     </p>
                 </div>
-                <p class="text-sm">{w.summary}</p>
+                {/* <p class="text-sm">{w.summary}</p> */}
                 <ul class="list-disc pl-5 flex flex-col gap-1 experiencia-highlights">
                     {w.highlights.map((h) => (
                         <li class="text-sm text-gray-800">{h}</li>
