@@ -1,0 +1,34 @@
+---
+import LayoutCv from "../layouts/LayoutCvEn.astro";
+import Hero from "@/cvComponentsEn/Hero.astro";
+import SideBar from "@/cvComponentsEn/SideBar.astro";
+import MainContent from "@/cvComponentsEn/MainContent.astro";
+---
+
+<LayoutCv title="Minimalist Portfolio & CV">
+    <main
+        class="print w-[1000px] flex flex-col items-center justify-start px-8 print:px-12 py-4 space-y-8 mt-12 border-x border-gray-300"
+    >
+        <Hero />
+        <div class="flex flex-row w-full justify-between gap-2">
+            <MainContent />
+            <SideBar />
+        </div>
+    </main>
+</LayoutCv>
+
+<style>
+    @media print {
+        .print {
+            width: 900px;
+        }
+        @page {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        @page :first {
+            margin-top: -20px;
+            margin-bottom: 20px;
+        }
+    }
+</style>

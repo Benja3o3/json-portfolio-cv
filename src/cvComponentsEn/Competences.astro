@@ -1,0 +1,14 @@
+---
+import { skills } from "@cv-en";
+---
+
+<section class="flex flex-col gap-1">
+    <h1 class="text-lg font-semibold">Competences</h1>
+    <ul class="list-disc pl-5 flex flex-col gap-1">
+        {
+            skills.map((language, index) => (
+                <li class="text-sm opacity-90">{language.name}</li>
+            ))
+        }
+    </ul>
+</section>

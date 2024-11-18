@@ -1,0 +1,297 @@
+{
+    "basics": {
+        "name": "Benjamin Cifuentes",
+        "label": "Full Stack Developer | Software Engineer",
+        "image": "./profile.webp",
+        "email": "bcifuentesp01@gmail.com",
+        "phone": "+56934000534",
+        "url": "linkedin.com/in/bcifuentes01/",
+        "summary": "I am a Civil Informatics Engineering student in my fifth year of university, with solid experience in various programming languages. I stand out for my excellent communication skills and my ability to work effectively in teams. My main interest lies in web development and the creation of digital platforms. I am always looking for new opportunities to learn and refine my skills.",
+        "location": {
+            "address": "Psje Oncol 545",
+            "postalCode": "5150000",
+            "city": "San José de la Mariquina",
+            "countryCode": "CL",
+            "region": "Los Rios"
+        },
+        "profiles": [
+            {
+                "network": "GitHub",
+                "username": "Benja3o3",
+                "url": "https://github.com/Benja3o3"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "Benjamin Cifuentes",
+                "url": "https://www.linkedin.com/in/bcifuentes01/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "Universidad Austral de Chile",
+            "position": "Teaching Assistant - Software Construction Workshop",
+            "url": "none",
+            "startDate": "2024-03-14",
+            "endDate": "Present",
+            "summary": "Assisted as a teaching assistant in the Software Construction Workshop course, helping students understand fundamental concepts and techniques for software development.",
+            "highlights": [
+                "Facilitated tutorials and activities designed to teach software development principles and practices interactively using NextJs.",
+                "Used participatory methods to promote active learning.",
+                "Provided support to student groups in the creation and development of their projects, offering technical and methodological guidance."
+            ],
+            "technologies": ["NextJs", "React", "NodeJs"],
+            "type": "Teaching Assistantship"
+        },
+        {
+            "name": "Universidad Austral de Chile",
+            "position": "Teaching Assistant - Software Engineering",
+            "url": "2024-06-07",
+            "startDate": "2024-03-14",
+            "endDate": "2024-06-07",
+            "summary": "Assisted as a teaching assistant in the Software Engineering course, helping students understand key elements such as UML diagrams, testing, Git, and refactoring.",
+            "highlights": [
+                "Collaborated with students in solving use cases, helping them create and understand UML diagrams to represent systems and processes.",
+                "Delivered sessions on refactoring techniques, explaining how and when to apply them to improve existing code.",
+                "Taught the importance of testing in software development, detailing when and how to conduct different types of tests."
+            ],
+            "technologies": ["Python", "GitHub"],
+            "type": "Teaching Assistantship"
+        },
+        {
+            "name": "Data Research",
+            "position": "Full Stack Developer | Software Engineer",
+            "url": "https://www.dataresearch.cl",
+            "startDate": "2023-12-18",
+            "endDate": "2024-01-15",
+            "summary": "Contributed to the development of a comprehensive web platform for file and folder management. This solution included advanced functionalities such as authentication, authorization, role and permission management, and a dashboard to analyze user actions, such as account creation and file uploads over time.",
+            "highlights": [
+                "Designed and developed parts of the user interface applying UX/UI design principles.",
+                "Implemented interactive and responsive components to ensure accessibility on multiple devices and resolutions.",
+                "Developed a robust RESTful API for managing system resources.",
+                "Implemented access control and security mechanisms to protect sensitive data.",
+                "Created an interactive dashboard to visualize and analyze user action distribution."
+            ],
+            "technologies": [
+                "React",
+                "TypeScript",
+                "Python",
+                "PostgreSQL",
+                "Tailwind",
+                "FastAPI",
+                "Docker"
+            ],
+            "type": "Web Development"
+        },
+        {
+            "name": "FONDEF IDeA ID22I10072 Project",
+            "position": "Frontend Developer, UX",
+            "url": "none",
+            "startDate": "2023-01-02",
+            "endDate": "2023-01-30",
+            "summary": "Initial internship for a FONDEF project, consisting of developing a citizen science mobile application focused on community perception of wildfires. The project aimed to engage the community in data collection and analysis regarding forest fires.",
+            "highlights": [
+                "Developed a consistent design system that included reusable components, colors, typography, and other visual elements to maintain application consistency.",
+                "Made adjustments to the design to improve the application's usability and aesthetics, ensuring it was user-friendly and visually appealing.",
+                "Conducted compatibility tests for the application on different mobile devices to increase reach across as many phones as possible."
+            ],
+            "technologies": ["Flutter", "Dart", "Figma"],
+            "type": "Web Development"
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "TODO",
+            "position": "Volunteer",
+            "url": "https://organization.com/",
+            "startDate": "2012-01-01",
+            "endDate": "2013-01-01",
+            "summary": "Description…",
+            "highlights": ["Awarded 'Volunteer of the Month'"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Austral de Chile",
+            "url": "https://www.uach.cl",
+            "area": "Civil Informatics Engineering",
+            "studyType": "Professional Degree",
+            "startDate": "2019-03-18",
+            "endDate": "2025",
+            "score": "TODO",
+            "courses": []
+        },
+        {
+            "institution": "Liceo Seminario San Fidel",
+            "url": "https://sanfidel.cl",
+            "area": "Bachelor's in Science and Humanities",
+            "studyType": "High School",
+            "startDate": "2016-03-03",
+            "endDate": "2019-11-08",
+            "score": "6.46",
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "TODO",
+            "date": "2014-11-01",
+            "awarder": "Company",
+            "summary": "There is no spoon."
+        }
+    ],
+    "certificates": [
+        {
+            "name": "TODO",
+            "date": "2021-11-07",
+            "issuer": "Company",
+            "url": "https://certificate.com"
+        }
+    ],
+    "publications": [
+        {
+            "name": "TODO",
+            "publisher": "Company",
+            "releaseDate": "2014-10-01",
+            "url": "https://publication.com",
+            "summary": "Description…"
+        }
+    ],
+    "programingLanguages": [
+        {
+            "name": "HTML",
+            "level": "Intermediate"
+        },
+        {
+            "name": "CSS",
+            "level": "Intermediate"
+        },
+        {
+            "name": "JavaScript",
+            "level": "Intermediate"
+        },
+        {
+            "name": "TypeScript",
+            "level": "Intermediate"
+        },
+        {
+            "name": "React",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Astro",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Python",
+            "level": "Intermediate"
+        },
+        {
+            "name": "NodeJs",
+            "level": "Intermediate"
+        },
+        {
+            "name": "PostgreSQL",
+            "level": "Intermediate"
+        },
+        {
+            "name": "Flutter",
+            "level": "Intermediate"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Teamwork"
+        },
+        {
+            "name": "Communication"
+        },
+        {
+            "name": "Problem-solving"
+        },
+        {
+            "name": "Critical thinking"
+        },
+        {
+            "name": "Time management"
+        },
+        {
+            "name": "Adaptability"
+        },
+        {
+            "name": "Creativity"
+        }
+    ],
+    "languages": [
+        {
+            "language": "Spanish",
+            "fluency": "Native"
+        },
+        {
+            "language": "English",
+            "fluency": "Intermediate"
+        }
+    ],
+    "interests": [
+        {
+            "name": "TODO",
+            "keywords": ["Ferrets", "Unicorns"]
+        }
+    ],
+    "references": [
+        {
+            "name": "Jane TODO",
+            "reference": "Reference…"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Thesis - OBSFarma",
+            "startDate": "2024-08",
+            "endDate": "Present",
+            "description": "Decision support system and platform for analyzing medical prescriptions using data streaming technologies, pipelines, and cloud storage.",
+            "highlights": [],
+            "tecnologies": ["Python", "Docker", "PostgreSQL", "Kafka", "React"]
+        },
+        {
+            "name": "FruitSell",
+            "startDate": "2024-01",
+            "endDate": "2024-02",
+            "description": "Mobile application for tracking fruit sales for street vendors, with location tracking and sales summaries.",
+            "highlights": [],
+            "tecnologies": ["Flutter", "NodeJs", "PostgreSQL"],
+            "url": "https://github.com/Benja3o3/FruitSalesApp",
+            "img": "./fruitsell.webp"
+        },
+        {
+            "name": "Verifika-Scraping-Bot",
+            "startDate": "2024-08",
+            "endDate": "2024-09",
+            "description": "Scraping bot using web scraping technologies and queued tasks.",
+            "highlights": [],
+            "tecnologies": [
+                "Python",
+                "React",
+                "PostgreSQL",
+                "RabbitMQ",
+                "Docker"
+            ]
+        },
+        {
+            "name": "INBiS",
+            "startDate": "2023-07",
+            "endDate": "2023-12",
+            "description": "Citizen wellbeing analysis platform based on quality-of-life and wellbeing indicators.",
+            "highlights": [],
+            "tecnologies": [
+                "React",
+                "TypeScript",
+                "NodeJs",
+                "Python",
+                "PostgreSQL"
+            ],
+            "url": "https://github.com/Benja3o3/INFO282-FrontBack",
+            "img": "./inbis.webp"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+---
+import { education } from "@cv-en";
+---
+
+<section class="flex flex-col gap-1">
+    <h1 class="text-xl font-semibold">Education</h1>
+    {
+        education.map((e, index) => (
+            <div
+                class={`relative flex items-center ${index !== education.length - 1 ? "mb-4" : ""}`}
+            >
+                <div class="w-3 h-3 rounded-full bg-gray-400 mr-2" />
+                <div>
+                    <h2 class="font-semibold opacity-90">{e.institution}</h2>
+                    <span class="text-sm">{e.area}</span>
+                    <p class="text-xs opacity-80">
+                        {e.startDate} / {e.endDate}
+                    </p>
+                </div>
+            </div>
+        ))
+    }
+</section>

@@ -1,0 +1,44 @@
+---
+import { basics } from "@cv-en";
+import Email from "@/icons/minimalistIcons/Email.astro";
+import Phone from "@/icons/minimalistIcons/Phone.astro";
+import Web from "@/icons/minimalistIcons/Web.astro";
+
+const { name, email, phone, image, label, url } = basics;
+---
+
+<section class="w-full flex flex-col items-center justify-between gap-5">
+    <div class="flex flex-row w-full justify-between items-center">
+        <div class="flex flex-col gap-2">
+            <h1 class="font-semibold text-3xl">{name}</h1>
+            <span>{label}</span>
+        </div>
+        <img
+            class="w-32 h-32 rounded-md shadow-lg"
+            src={image}
+            alt="Cv profile picture"
+        />
+    </div>
+    <div class="flex flex-row justify-between w-full bg-gray-100 p-3">
+        <div class="flex flex-row gap-1">
+            <Email class="w-5 h-5" />
+            <span class="text-sm opacity-80">{email}</span>
+        </div>
+        <div class="flex flex-row gap-1">
+            <Phone class="w-5 h-5" />
+            <span class="text-sm opacity-80">{phone}</span>
+        </div>
+        <div class="flex flex-row gap-1">
+            <Web class="w-5 h-5" />
+            <span class="text-sm opacity-80">{url}</span>
+        </div>
+    </div>
+</section>
+
+<style>
+    @media print {
+        .bg-gray-100 {
+            background-color: #f3f4f6 !important; /* gris claro equivalente a bg-gray-100 */
+        }
+    }
+</style>

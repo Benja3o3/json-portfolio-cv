@@ -1,0 +1,26 @@
+---
+import { languages } from "@cv-en";
+---
+
+<section class="flex flex-col gap-1 idiomas-section">
+    <h1 class="text-lg font-semibold">Languages</h1>
+    {
+        languages.map((language, index) => (
+            <div class="flex flex-row justify-between">
+                <h2 class="text-sm font-semibold opacity-90">
+                    {language.language}
+                </h2>
+                <p class="text-sm">{language.fluency}</p>
+            </div>
+        ))
+    }
+</section>
+
+<style>
+    @media print {
+        /* Evita saltos de página dentro de la sección de idiomas */
+        .idiomas-section {
+            page-break-inside: avoid;
+        }
+    }
+</style>

@@ -1,0 +1,72 @@
+---
+import { projects } from "@cv-en";
+import HTML from "@/icons/Html5.astro";
+import CSS from "@/icons/Css.astro";
+import JS from "@/icons/Js.astro";
+import TS from "@/icons/Ts.astro";
+import REACT from "@/icons/React.astro";
+import NODE from "@/icons/Node.astro";
+import ASTRO from "@/icons/AstroIcon.astro";
+import POSTGRESQL from "@/icons/PostgreSql.astro";
+import PYTHON from "@/icons/Python.astro";
+import FLUTTER from "@/icons/Flutter.astro";
+import DOCKER from "@/icons/Docker.astro";
+import RABBITMQ from "@/icons/RabbitMQ.astro";
+import KAFKA from "@/icons/Kafka.astro";
+const TECNOLOGIES_ICONS: Record<string, any> = {
+    HTML: HTML,
+    CSS: CSS,
+    JavaScript: JS,
+    TypeScript: TS,
+    React: REACT,
+    NodeJs: NODE,
+    Astro: ASTRO,
+    PostgreSQL: POSTGRESQL,
+    Python: PYTHON,
+    Flutter: FLUTTER,
+    Docker: DOCKER,
+    RabbitMQ: RABBITMQ,
+    Kafka: KAFKA,
+};
+---
+
+<section class="flex flex-col gap-1 mr-1">
+    <h1 class="text-xl font-semibold">Projects</h1>
+    <div class="grid grid-cols-1 gap-2">
+        {
+            projects.map((project, index) => (
+                <div class="flex flex-col gap-1 experiencia-item">
+                    <h2 class="text-lg font-semibold bg-gray-300">
+                        {project.name}
+                    </h2>
+                    <p class="text-sm">{project.description}</p>
+                    <div class="flex flex-row justify-between items-center experiencia-item">
+                        <ul class="flex flex-wrap gap-1 ">
+                            {project.tecnologies.map((tecnology) => {
+                                const Icon = TECNOLOGIES_ICONS[tecnology];
+                                return <Icon class="w-4 h-4" />;
+                            })}
+                        </ul>
+                        <span class="text-xs opacity-80">
+                            {project.startDate} / {project.endDate}
+                        </span>
+                    </div>
+                </div>
+            ))
+        }
+    </div>
+</section>
+
+<style>
+    @media print {
+        /* Evita el salto de página solo en las experiencias individuales */
+        .experiencia-item {
+            page-break-inside: avoid;
+        }
+
+        /* Permite que las listas y otros elementos fluyan normalmente */
+        .experiencia-highlights {
+            page-break-inside: auto;
+        }
+    }
+</style>
