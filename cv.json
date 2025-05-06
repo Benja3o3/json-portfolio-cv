@@ -1,297 +1,285 @@
 {
-    "basics": {
-        "name": "Benjamin Cifuentes",
-        "label": "Desarrollador Full Stack | Ingeniero de Software",
-        "image": "./profile.webp",
-        "email": "bcifuentesp01@gmail.com",
-        "phone": "+56934000534",
-        "url": "linkedin.com/in/bcifuentes01/",
-        "summary": "Soy estudiante de Ingeniería Civil Informática en el quinto año de universidad, con sólida experiencia en diversos lenguajes de programación. Me destaco por mis excelentes habilidades comunicativas y mi capacidad para trabajar eficazmente en equipo. Mi interés principal se centra en el desarrollo web y la creación de plataformas digitales. Siempre estoy buscando nuevas oportunidades para aprender y perfeccionar mis habilidades.",
-        "location": {
-            "address": "Psje Oncol 545",
-            "postalCode": "5150000",
-            "city": "San José de la Mariquina",
-            "countryCode": "CL",
-            "region": "Los Rios"
-        },
-        "profiles": [
-            {
-                "network": "GitHub",
-                "username": "Benja3o3",
-                "url": "https://github.com/Benja3o3"
-            },
-            {
-                "network": "LinkedIn",
-                "username": "Benjamin Cifuentes",
-                "url": "https://www.linkedin.com/in/bcifuentes01/"
-            }
-        ]
+  "basics": {
+    "name": "Benjamin Cifuentes",
+    "label": "Desarrollador Full Stack | Ingeniero de Software",
+    "image": "./profile.webp",
+    "email": "bcifuentesp01@gmail.com",
+    "phone": "+56934000534",
+    "url": "linkedin.com/in/bcifuentes01/",
+    "summary": "Soy estudiante de Ingeniería Civil Informática en el quinto año de universidad, con sólida experiencia en diversos lenguajes de programación. Me destaco por mis excelentes habilidades comunicativas y mi capacidad para trabajar eficazmente en equipo. Mi interés principal se centra en el desarrollo web y la creación de plataformas digitales. Siempre estoy buscando nuevas oportunidades para aprender y perfeccionar mis habilidades.",
+    "location": {
+      "address": "Psje Oncol 545",
+      "postalCode": "5150000",
+      "city": "San José de la Mariquina",
+      "countryCode": "CL",
+      "region": "Los Rios"
     },
-    "work": [
-        {
-            "name": "Universidad Austral de Chile",
-            "position": "Ayudante Taller de Construcción de Software",
-            "url": "none",
-            "startDate": "2024-03-14",
-            "endDate": "Presente",
-            "summary": "Colaboré como ayudante en el ramo de Taller construcción de software, donde asistí a los alumnos en la comprensión de conceptos y técnicas fundamentales para el desarrollo de software.",
-            "highlights": [
-                "Facilité tutorías y actividades diseñadas para enseñar de manera interactiva los principios y prácticas del desarrollo de software usando NextJs",
-                "Utilicé métodos participativos para promover el aprendizaje activo",
-                "Brindé apoyo a los grupos de alumnos en la creación y desarrollo de sus proyectos, ofreciendo orientación técnica y metodológica"
-            ],
-            "tecnologies": ["NextJs", "React", "NodeJs"],
-            "type": "Ayudantia"
-        },
-        {
-            "name": "Universidad Austral de Chile",
-            "position": "Ayudante Ingeniería de Software",
-            "url": "2024-06-07",
-            "startDate": "2024-03-14",
-            "endDate": "2024-06-07",
-            "summary": "Colaboré como ayudante en el ramo de Ingeniería de Software, asistiendo a los alumnos en la comprensión de elementos clave como diagramas UML, testing, Git y refactoring.",
-            "highlights": [
-                "Colaboré con los estudiantes en la resolución de casos de uso, ayudándoles a crear y comprender diagramas UML para representar sistemas y procesos",
-                "Impartí sesiones sobre técnicas de refactoring, explicando cómo y cuándo aplicarlas para mejorar el código existente",
-                "Enseñé la importancia del testing en el desarrollo de software, detallando cuándo y cómo realizar diferentes tipos de pruebas"
-            ],
-            "tecnologies": ["Python", "GitHub"],
-            "type": "Ayudantia"
-        },
-        {
-            "name": "Data Research",
-            "position": "Desarrollador Full Stack | Ingeniero de Software",
-            "url": "https://www.dataresearch.cl",
-            "startDate": "2023-12-18",
-            "endDate": "2024-01-15",
-            "summary": "Colaboré en el desarrollo de una plataforma web integral para el control y gestión de archivos y carpetas. Esta solución incluyó funcionalidades avanzadas como autenticación, autorización, gestión de roles y permisos, así como un dashboard para analizar la distribución de acciones de los usuarios, como la creación de cuentas y la subida de archivos a lo largo del tiempo.",
-            "highlights": [
-                "Diseñé y desarrollé partes de la interfaz de usuario aplicando principios de diseño UX/UI.",
-                "Implementé componentes interactivos y responsivos para asegurar la accesibilidad en múltiples dispositivos y resoluciones.",
-                "Desarrollé una API RESTful robusta para la gestión de los recursos del sistema.",
-                "Implementé mecanismos de control de acceso y seguridad para proteger los datos sensibles.",
-                "Creé un dashboard interactivo para visualizar y analizar la distribución de acciones de los usuarios."
-            ],
-            "tecnologies": [
-                "React",
-                "TypeScript",
-                "Python",
-                "PostgreSQL",
-                "Tailwind",
-                "FastAPI",
-                "Docker"
-            ],
-            "type": "Desarrollo Web"
-        },
-        {
-            "name": "Proyecto FONDEF IDeA ID22I10072",
-            "position": "Desarrollador Frontend, UX",
-            "url": "none",
-            "startDate": "2023-01-02",
-            "endDate": "2023-01-30",
-            "summary": "Práctica inicial para un proyecto FONDEF, que consistía en el desarrollo de una aplicación móvil de ciencia ciudadana centrada en la percepción comunitaria de los incendios. Este proyecto tenía como objetivo involucrar a la comunidad en la recolección y análisis de datos sobre incendios forestales.",
-            "highlights": [
-                "Desarrollé un sistema de diseño coherente que incluyera componentes reutilizables, colores, tipografía y otros elementos visuales para mantener la consistencia en toda la aplicación.",
-                "Realicé ajustes en el diseño para mejorar la usabilidad y la estética de la aplicación, asegurando que fuera fácil de usar y visualmente atractiva.",
-                "Realicé pruebas de compatibilidad de la aplicación en diferentes dispositivos móviles para mejorar el alcance con la mayor cantidad de teléfonos posible."
-            ],
-            "tecnologies": ["Flutter", "Dart", "Figma"],
-            "type": "Desarrollo Web"
-        }
-    ],
-    "volunteer": [
-        {
-            "organization": "TODO",
-            "position": "Volunteer",
-            "url": "https://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Description…",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
-        }
-    ],
-    "education": [
-        {
-            "institution": "Universad Austral de Chile",
-            "url": "https://www.uach.cl",
-            "area": "Ingeniería Civil Informática",
-            "studyType": "Título Profesional",
-            "startDate": "2020-03-18",
-            "endDate": "2025",
-            "score": "TODO",
-            "courses": []
-        },
-        {
-            "institution": "Liceo Seminario San Fidel",
-            "url": "https://sanfidel.cl",
-            "area": "Licenciatura en Ciencias y Humanidades",
-            "studyType": "Enseñanza Media",
-            "startDate": "2016-03-03",
-            "endDate": "2019-11-08",
-            "score": "6.46",
-            "courses": []
-        }
-    ],
-    "awards": [
-        {
-            "title": "TODO",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "certificates": [
-        {
-            "name": "TODO",
-            "date": "2021-11-07",
-            "issuer": "Company",
-            "url": "https://certificate.com"
-        }
-    ],
-    "publications": [
-        {
-            "name": "TODO",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Description…"
-        }
-    ],
-    "programingLanguages": [
-        {
-            "name": "HTML",
-            "level": "Intermediate"
-        },
-        {
-            "name": "CSS",
-            "level": "Intermediate"
-        },
-        {
-            "name": "JavaScript",
-            "level": "Intermediate"
-        },
-        {
-            "name": "TypeScript",
-            "level": "Intermediate"
-        },
-        {
-            "name": "React",
-            "level": "Intermediate"
-        },
-        {
-            "name": "Astro",
-            "level": "Intermediate"
-        },
-        {
-            "name": "Python",
-            "level": "Intermediate"
-        },
-        {
-            "name": "NodeJs",
-            "level": "Intermediate"
-        },
-        {
-            "name": "PostgreSQL",
-            "level": "Intermediate"
-        },
-        {
-            "name": "Flutter",
-            "level": "Intermediate"
-        }
-    ],
-    "skills": [
-        {
-            "name": "Trabajo en equipo"
-        },
-        {
-            "name": "Comunicación"
-        },
-        {
-            "name": "Resolución de problemas"
-        },
-        {
-            "name": "Pensamiento crítico"
-        },
-        {
-            "name": "Gestión del tiempo"
-        },
-        {
-            "name": "Adaptabilidad"
-        },
-        {
-            "name": "Creatividad"
-        }
-    ],
-    "languages": [
-        {
-            "language": "Español",
-            "fluency": "Nativo"
-        },
-        {
-            "language": "Inglés",
-            "fluency": "Intermedio"
-        }
-    ],
-    "interests": [
-        {
-            "name": "TODO",
-            "keywords": ["Ferrets", "Unicorns"]
-        }
-    ],
-    "references": [
-        {
-            "name": "Jane TODO",
-            "reference": "Reference…"
-        }
-    ],
-    "projects": [
-        {
-            "name": "Tesis - OBSFarma",
-            "startDate": "2024-08",
-            "endDate": "Presente",
-            "description": "Sistema de apoyo a la toma de decisiones y plataforma de analisis de prescripciones medicas con tecnologias de streaming de datos, pipelines y almacenamiento en la nube",
-            "highlights": [],
-            "tecnologies": ["Python", "Docker", "PostgreSQL", "Kafka", "React"]
-        },
-        {
-            "name": "FruitSell",
-            "startDate": "2024-01",
-            "endDate": "2024-02",
-            "description": "Aplicación móvil para el seguimiento de ventas de frutas para vendedores ambulantes, con trackeo de ubicación y resumen de ventas",
-            "highlights": [],
-            "tecnologies": ["Flutter", "NodeJs", "PostgreSQL"],
-            "url": "https://github.com/Benja3o3/FruitSalesApp",
-            "img": "./fruitsell.webp"
-        },
-        {
-            "name": "Verifika-Scraping-Bot",
-            "startDate": "2024-08",
-            "endDate": "2024-09",
-            "description": "Bot de scraping utilizando tecnologias de web scraping y tareas encoladas",
-            "highlights": [],
-            "tecnologies": [
-                "Python",
-                "React",
-                "PostgreSQL",
-                "RabbitMQ",
-                "Docker"
-            ]
-        },
-        {
-            "name": "INBiS",
-            "startDate": "2023-07",
-            "endDate": "2023-12",
-            "description": "Plataforma de análisis de bienestar ciudadano basado en indicadores de calidad de vida y bienestar",
-            "highlights": [],
-            "tecnologies": [
-                "React",
-                "TypeScript",
-                "NodeJs",
-                "Python",
-                "PostgreSQL"
-            ],
-            "url": "https://github.com/Benja3o3/INFO282-FrontBack",
-            "img": "./inbis.webp"
-        }
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "Benja3o3",
+        "url": "https://github.com/Benja3o3"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Benjamin Cifuentes",
+        "url": "https://www.linkedin.com/in/bcifuentes01/"
+      }
     ]
+  },
+  "work": [
+    {
+      "name": "Universidad Austral de Chile",
+      "position": "Ayudante Taller de Construcción de Software",
+      "url": "none",
+      "startDate": "2024-03-14",
+      "endDate": "Presente",
+      "summary": "Colaboré como ayudante en el ramo de Taller construcción de software, donde asistí a los alumnos en la comprensión de conceptos y técnicas fundamentales para el desarrollo de software.",
+      "highlights": [
+        "Facilité tutorías y actividades diseñadas para enseñar de manera interactiva los principios y prácticas del desarrollo de software usando NextJs",
+        "Utilicé métodos participativos para promover el aprendizaje activo",
+        "Brindé apoyo a los grupos de alumnos en la creación y desarrollo de sus proyectos, ofreciendo orientación técnica y metodológica"
+      ],
+      "tecnologies": ["NextJs", "React", "NodeJs"],
+      "type": "Ayudantia"
+    },
+    {
+      "name": "Universidad Austral de Chile",
+      "position": "Ayudante Ingeniería de Software",
+      "url": "2024-06-07",
+      "startDate": "2024-03-14",
+      "endDate": "2024-06-07",
+      "summary": "Colaboré como ayudante en el ramo de Ingeniería de Software, asistiendo a los alumnos en la comprensión de elementos clave como diagramas UML, testing, Git y refactoring.",
+      "highlights": [
+        "Colaboré con los estudiantes en la resolución de casos de uso, ayudándoles a crear y comprender diagramas UML para representar sistemas y procesos",
+        "Impartí sesiones sobre técnicas de refactoring, explicando cómo y cuándo aplicarlas para mejorar el código existente",
+        "Enseñé la importancia del testing en el desarrollo de software, detallando cuándo y cómo realizar diferentes tipos de pruebas"
+      ],
+      "tecnologies": ["Python", "GitHub"],
+      "type": "Ayudantia"
+    },
+    {
+      "name": "Data Research",
+      "position": "Desarrollador Full Stack | Ingeniero de Software",
+      "url": "https://www.dataresearch.cl",
+      "startDate": "2023-12-18",
+      "endDate": "2024-01-15",
+      "summary": "Colaboré en el desarrollo de una plataforma web integral para el control y gestión de archivos y carpetas. Esta solución incluyó funcionalidades avanzadas como autenticación, autorización, gestión de roles y permisos, así como un dashboard para analizar la distribución de acciones de los usuarios, como la creación de cuentas y la subida de archivos a lo largo del tiempo.",
+      "highlights": [
+        "Diseñé y desarrollé partes de la interfaz de usuario aplicando principios de diseño UX/UI.",
+        "Implementé componentes interactivos y responsivos para asegurar la accesibilidad en múltiples dispositivos y resoluciones.",
+        "Desarrollé una API RESTful robusta para la gestión de los recursos del sistema.",
+        "Implementé mecanismos de control de acceso y seguridad para proteger los datos sensibles.",
+        "Creé un dashboard interactivo para visualizar y analizar la distribución de acciones de los usuarios."
+      ],
+      "tecnologies": [
+        "React",
+        "TypeScript",
+        "Python",
+        "PostgreSQL",
+        "Tailwind",
+        "FastAPI",
+        "Docker"
+      ],
+      "type": "Desarrollo Web"
+    },
+    {
+      "name": "Proyecto FONDEF IDeA ID22I10072",
+      "position": "Desarrollador Frontend, UX",
+      "url": "none",
+      "startDate": "2023-01-02",
+      "endDate": "2023-01-30",
+      "summary": "Práctica inicial para un proyecto FONDEF, que consistía en el desarrollo de una aplicación móvil de ciencia ciudadana centrada en la percepción comunitaria de los incendios. Este proyecto tenía como objetivo involucrar a la comunidad en la recolección y análisis de datos sobre incendios forestales.",
+      "highlights": [
+        "Desarrollé un sistema de diseño coherente que incluyera componentes reutilizables, colores, tipografía y otros elementos visuales para mantener la consistencia en toda la aplicación.",
+        "Realicé ajustes en el diseño para mejorar la usabilidad y la estética de la aplicación, asegurando que fuera fácil de usar y visualmente atractiva.",
+        "Realicé pruebas de compatibilidad de la aplicación en diferentes dispositivos móviles para mejorar el alcance con la mayor cantidad de teléfonos posible."
+      ],
+      "tecnologies": ["Flutter", "Dart", "Figma"],
+      "type": "Desarrollo Web"
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "TODO",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universad Austral de Chile",
+      "url": "https://www.uach.cl",
+      "area": "Ingeniería Civil Informática",
+      "studyType": "Título Profesional",
+      "startDate": "2020-03-18",
+      "endDate": "2025",
+      "score": "TODO",
+      "courses": []
+    },
+    {
+      "institution": "Liceo Seminario San Fidel",
+      "url": "https://sanfidel.cl",
+      "area": "Licenciatura en Ciencias y Humanidades",
+      "studyType": "Enseñanza Media",
+      "startDate": "2016-03-03",
+      "endDate": "2019-11-08",
+      "score": "6.46",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "TODO",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "EF SET English Certificate 51/100 (B2 Upper Intermediate)",
+      "date": "2025-01-02",
+      "issuer": "EF SET",
+      "url": "https://cert.efset.org/ictFe2"
+    }
+  ],
+  "publications": [
+    {
+      "name": "TODO",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
+  "programingLanguages": [
+    {
+      "name": "HTML",
+      "level": "Intermediate"
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate"
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate"
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate"
+    },
+    {
+      "name": "React",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Astro",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate"
+    },
+    {
+      "name": "NodeJs",
+      "level": "Intermediate"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermediate"
+    },
+    {
+      "name": "Flutter",
+      "level": "Intermediate"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Trabajo en equipo"
+    },
+    {
+      "name": "Comunicación"
+    },
+    {
+      "name": "Resolución de problemas"
+    },
+    {
+      "name": "Pensamiento crítico"
+    },
+    {
+      "name": "Gestión del tiempo"
+    },
+    {
+      "name": "Adaptabilidad"
+    },
+    {
+      "name": "Creatividad"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "B2"
+    }
+  ],
+  "interests": [
+    {
+      "name": "TODO",
+      "keywords": ["Ferrets", "Unicorns"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane TODO",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Tesis - OBSFarma",
+      "startDate": "2024-08",
+      "endDate": "Presente",
+      "description": "Sistema de apoyo a la toma de decisiones y plataforma de analisis de prescripciones medicas con tecnologias de streaming de datos, pipelines y almacenamiento en la nube",
+      "highlights": [],
+      "tecnologies": ["Python", "Docker", "PostgreSQL", "Kafka", "React"]
+    },
+    {
+      "name": "FruitSell",
+      "startDate": "2024-01",
+      "endDate": "2024-02",
+      "description": "Aplicación móvil para el seguimiento de ventas de frutas para vendedores ambulantes, con trackeo de ubicación y resumen de ventas",
+      "highlights": [],
+      "tecnologies": ["Flutter", "NodeJs", "PostgreSQL"],
+      "url": "https://github.com/Benja3o3/FruitSalesApp",
+      "img": "./fruitsell.webp"
+    },
+    {
+      "name": "Verifika-Scraping-Bot",
+      "startDate": "2024-08",
+      "endDate": "2024-09",
+      "description": "Bot de scraping utilizando tecnologias de web scraping y tareas encoladas",
+      "highlights": [],
+      "tecnologies": ["Python", "React", "PostgreSQL", "RabbitMQ", "Docker"]
+    },
+    {
+      "name": "INBiS",
+      "startDate": "2023-07",
+      "endDate": "2023-12",
+      "description": "Plataforma de análisis de bienestar ciudadano basado en indicadores de calidad de vida y bienestar",
+      "highlights": [],
+      "tecnologies": ["React", "TypeScript", "NodeJs", "Python", "PostgreSQL"],
+      "url": "https://github.com/Benja3o3/INFO282-FrontBack",
+      "img": "./inbis.webp"
+    }
+  ]
 }
