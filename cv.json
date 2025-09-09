@@ -30,6 +30,40 @@
   },
   "work": [
     {
+      "name": "NTT DATA CENTERS",
+      "position": "Centers Junior - Desarrollador Frontend",
+      "url": "none",
+      "startDate": "2025-06-10",
+      "endDate": "Presente",
+      "summary": "Desempeño el rol de desarrollador frontend en NTT DATA CENTERS, contribuyendo al desarrollo y mantenimiento de aplicaciones web y plataformas digitales. Mi enfoque principal está en la creación de interfaces de usuario intuitivas y funcionales",
+      "highlights": [
+        "Participación en la migración y optimización del flujo de contrataciones de la aplicación Movistar utilizando PHP.",
+        "Desarrollo e implementación de nuevas funcionalidades orientadas a mejorar la experiencia del usuario y la eficiencia del proceso.",
+        "Colaboración estrecha con equipos de diseño y desarrollo para garantizar una integración fluida y una interfaz intuitiva.",
+        "Aplicación de buenas prácticas de programación y estándares de calidad para asegurar la escalabilidad y mantenibilidad del código."
+      ],
+      "tecnologies": ["PHP", "JavaScript", "HTML", "SCSS", "Docker"],
+      "type": "Desarrollo Web"
+    },
+    {
+      "name": "Fundacion Educacional Seminario San Fidel",
+      "position": "Ayudante de informatica",
+      "url": "none",
+      "startDate": "2025-03-03",
+      "endDate": "2025-07-02",
+      "summary": "Desempeñe rol de soporte de informatica en el Liceo Seminario San Fidel, brindando asistencia técnica y apoyo a estudiantes y profesores en el uso de herramientas tecnológicas.",
+      "highlights": [
+        "Administré correos institucionales y gestioné cuentas de usuario.",
+        "Brindé apoyo técnico a docentes y estudiantes en el uso de equipos informáticos.",
+        "Proveí soporte a las cuentas de la aplicación Appoderados.",
+        "Di soporte y realicé actualizaciones en el sitio web institucional.",
+        "Llevé a cabo el seguimiento y la gestión del préstamo de computadores portátiles a estudiantes.",
+        "Realicé tareas de mantenimiento de equipos informáticos y resolución de incidencias técnicas."
+      ],
+      "tecnologies": ["Google Workspace", "Microsoft Office", "WordPress"],
+      "type": "Ayudantía"
+    },
+    {
       "name": "Universidad Austral de Chile",
       "position": "Ingeniero de Software | Desarrollador Full Stack",
       "url": "none",
